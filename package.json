@@ -1,0 +1,35 @@
+{
+  "name": "generator-autobahn",
+  "version": "0.1.0",
+  "description": "Yo generator to scaffold an autobahn server",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "https://github.com/deepjs/yo-generator-autobahn.git",
+  "author": {
+    "name": "Philippe Delabye",
+    "email": "",
+    "url": "https://github.com/philid"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yo-generator-autobahn"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
