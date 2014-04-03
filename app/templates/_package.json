@@ -1,12 +1,12 @@
 {
-  "name": "autobahn-shell",
-  "author"        : "Philippe Delabye <phil@chemicalrules.net>",
-  "description"   : "A starting shelf to make an autobahn server",
-  "contributors"  : ["Philippe Delabye <phil@chemicalrules.net>"],
-  "version": "0.1.0",
+  "name": "<%= applicationName %>",
+  "author"        : "<%= author %> <<%= email %>>",
+  "description"   : "<%= description %>",
+  "contributors"  : ["<%= author %>  <<%= email %>>"],
+  "version": "<%= version %>",
   "repository": {
     "type":"git",
-    "url":"https://github.com/deepjs/autobahn-shelf.git"
+    "url":"<%= githubURL %>"
   },
   "dependencies": {
     "amdefine": "*",
