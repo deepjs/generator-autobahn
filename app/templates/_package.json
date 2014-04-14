@@ -17,14 +17,18 @@
     "connect-mongo": "0.4.0",
     "connect":"2.12.0",
     "cheerio":"0.13.1",
-    "deepjs":"git+ssh://git@github.com:deepjs/deepjs.git#72f7668",
-    "autobahnjs":"git+ssh://git@github.com:deepjs/autobahn.git#cb44d76",
-    "deep-jquery":"git+ssh://git@github.com:deepjs/deep-jquery.git#78a9ac0",
-    "deep-node":"git+ssh://git@github.com:deepjs/deep-node.git#af3dc12",
-    "deep-mongo":"git+ssh://git@github.com:deepjs/deep-mongo.git#ffa197b",
-    "deep-routes":"git+ssh://git@github.com:deepjs/deep-routes.git#8742c86",
-    "deep-swig":"git+ssh://git@github.com:deepjs/deep-swig.git#0.4.1",
-    "deep-localisation" : "git+ssh://git@github.com:deepjs/deep-localisation.git#0.1.3"
+    "deepjs":"git+https://github.com/deepjs/deepjs.git",
+    "autobahnjs":"git+https://github.com/deepjs/autobahn.git",
+    "deep-jquery":"git+https://github.com/deepjs/deep-jquery.git",
+    "deep-node":"git+https://github.com/deepjs/deep-node.git",
+    "deep-mongo":"git+https://github.com/deepjs/deep-mongo.git",
+    "deep-routes":"git+https://github.com/deepjs/deep-routes.git",
+    "deep-swig":"git+https://github.com/deepjs/deep-swig.git",
+    "deep-localisation" : "git+https://github.com/deepjs/deep-localisation.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "deep-shell":"0.2.4"
   },
   "engines": {
     "node": ">=0.10.0"
