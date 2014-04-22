@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.2",
-    "deep-shell":"0.2.4"
+    "deep-shell":"git+https://github.com/deepjs/deep-shell.git"
   },
   "engines": {
     "node": ">=0.10.0"

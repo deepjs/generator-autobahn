@@ -33,11 +33,13 @@ module.exports = function(grunt) {
 				.cd("./node_modules")
 				//.log("git clone " + packURI + " " + key)
 				.exec("git clone " + packURI + " " + key)
-				.log("git cloned " + packURI)
-				.cd(key)
+				//.log("git cloned " + packURI)
+				//.pwd()
+				//.ls()
+				.cd("./" + key)
 				//.log()
 				//.ls()
-				//.exec("git checkout " + packVersion).log();
+				.exec("git checkout " + packVersion).log();
 				promises.push(d);
 			}
 		}
