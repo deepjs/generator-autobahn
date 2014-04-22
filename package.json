@@ -1,6 +1,6 @@
 {
   "name": "generator-autobahn",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Yo generator to scaffold an autobahn server",
   "license": "MIT",
   "main": "app/index.js",
