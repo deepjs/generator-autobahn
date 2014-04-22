@@ -13,20 +13,6 @@ deep.Modes({
 	roles: 'public'
 });
 
-//create the mongoDB store that will handle sessions
-var MongoStore = require('connect-mongo')(express); // session store
-var confSessionStore = {
-	db: {
-		db: 'sessions',
-		host: '127.0.0.1',
-		//port: 6646,  // optional, default: 27017
-		//username: 'admin', // optional
-		//password: 'secret', // optional
-		collection: 'sessions' // optional, default: sessions
-	},
-	secret: '82YBkLU_DG09bIUYiLDH6_23KZDJN92I4'
-};
-
 //main config of the server
 var config = {
 	port: 3000,
@@ -34,9 +20,8 @@ var config = {
 	htmls: {},
 	statics: {},
 	session: {
-		secret: confSessionStore.secret,
-		maxAge: new Date(Date.now() + 3600000),
-		store: new MongoStore(confSessionStore.db)
+		secret: 'paezijp7YlhgiGOUYgtogz',
+		maxAge: new Date(Date.now() + 3600000)
 	},
 	sessionModes: function (session) {
 		//console.log('------ GET modes ******** : ', session);
